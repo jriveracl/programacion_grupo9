@@ -1,0 +1,10 @@
+# en conclusion, unos breves comentario que pueden 
+# ser de utilidad en el momento de hacer trabajos correctamente
+# podemos decir que uno como universitario, debe saber manejar
+# distintos lenguajes de programacion por lo que pueda pasar
+#tener un gran manejo, de lo que se demanda hoy en dia, tareas
+# tan simple como la que dejo el profesor, se puede hacer de una manera
+# muy rapida si sabemos utilizar bastantes lenguajes de programacion
+# en mi caso estoy aprendiendo java, mysql, html, css, git, y por lo pronto javascript, ademas de python
+# python ya va en sus ultimas etapas, por todo lo que aprendido 
+# !! estos son mis comentarios ¡¡
