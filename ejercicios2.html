@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicio 4 de laboratorio</title>
+    <style>
+        table, th, td {
+            border: 1px solid black
+        }
+        td {
+            background-color: aqua;
+        }
+    </style>
+<body>
+    <h1>ejercicio 1 de laboratorio</h1>
+
+    <p>Averigua y escribe el código ASCII correspondiente, tanto en decimal como
+        en binario, a las letras de sus nombres y apellidos.
+        Distinguir entre mayúsculas/minúsculas, y sin acentos.
+    </p>
+    <p>codigo ASCII en decimal ____ binario:<br>
+        00: NULL ____   
+        0000: NULL NULL<br>
+        01: SOH ____ 
+        0001: NULL SOH <br>
+        02: STX ____ 
+        0010: NULL LF <br>
+        03: ETX ____ 
+        0011: NULL FF <br>
+        04: EOT ____ 
+        0100: SOH NULL <br>
+        05: ENQ ____ 
+        0101: SOH SOH <br>
+        06: ACK ____ 
+        0110: SOH LF <br>
+        07: BEL ____ 
+        0111: SOH VT <br>
+        08: BS ____  
+        1000: LF NULL <br>
+        09: HT ____ 
+        1001: LF SOH <br>
+        10: LF ____ 
+        1010: LF LF <br>
+        11: VT ____ 
+        1011: LF VT <br>
+        12: FF ____ 
+        1100: VT NULL <br>
+        13: CR ____ 
+        1101: VT SOH <br>
+        14: SO ____ 
+        1110: VT LF <br>
+        15: SI ____ 
+        1111: VT VT <br>
+        16: DLE ____ 
+        10000: d NULL <br>
+        17: DC1 ____ 
+        10001: d SOH <br>
+        18: DC2 ____ 
+        10011: d VT <br>
+        19: DC3 ____ 
+        10011: d VT <br>
+        20: DC4 ____ 
+        10100: e NULL <br>
+        21: N1AK ____ 
+        10101: e SOH <br>
+        22: SYN ____ 
+        10110: e LF <br>
+        23: ETB ____ 
+        10111: e VT <br>
+    </p>
+    <p>Crear una tabla donde las filas sean los caracteres del nombre y las columnas sean (caracter, Representación Decimal, Binario)</p>
+    <table style="border: 1px solid black;">
+        <caption>tabla de laboratorio</caption>
+        <thead>representacion del nombre y aepllido del estudiante en decimal y binario</thead>
+        <tr>
+            <td>caracter</td>
+            <td>representacion decimal</td>
+            <td>representacion binario</td>
+        </tr>
+        <tr>
+            <td>j</td>
+            <td>0</td>
+            <td>000000</td>
+        </tr>
+        <tr>
+            <td>u</td>
+            <td>1</td>
+            <td>000001</td>
+        </tr>
+        <tr>
+            <td>a</td>
+            <td>2</td>
+            <td>000010</td>
+        </tr>
+        <tr>
+            <td>n</td>
+            <td>3</td>
+            <td>000011</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>4</td>
+            <td>000100</td>
+        </tr>
+        <tr>
+            <td>c</td>
+            <td>5</td>
+            <td>000101</td>
+        </tr>
+        <tr>
+            <td>a</td>
+            <td>6</td>
+            <td>000110</td>
+        </tr>
+        <tr>
+            <td>m</td>
+            <td>7</td>
+            <td>000111</td>
+        </tr>
+        <tr>
+            <td>i</td>
+            <td>8</td>
+            <td>001000</td>
+        </tr>
+        <tr>
+            <td>l</td>
+            <td>9</td>
+            <td>001001</td>
+        </tr>
+        <tr>
+            <td>o</td>
+            <td>10</td>
+            <td>001010</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>11</td>
+            <td>001011</td>
+        </tr>
+        <tr>
+            <td>r</td>
+            <td>12</td>
+            <td>001100</td>
+        </tr>
+        <tr>
+            <td>i</td>
+            <td>13</td>
+            <td>001101</td>
+        </tr>
+        <tr>
+            <td>v</td>
+            <td>14</td>
+            <td>001110</td>
+        </tr>
+        <tr>
+            <td>e</td>
+            <td>15</td>
+            <td>001111</td>
+        </tr>
+        <tr>
+            <td>r</td>
+            <td>16</td>
+            <td>010000</td>
+        </tr>
+        <tr>
+            <td>a</td>
+            <td>17</td>
+            <td>010001</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>18</td>
+            <td>010010</td>
+        </tr>
+        <tr>
+            <td>c</td>
+            <td>19</td>
+            <td>010011</td>
+        </tr>
+        <tr>
+            <td>l</td>
+            <td>20</td>
+            <td>010100</td>
+        </tr>
+        <tr>
+            <td>a</td>
+            <td>21</td>
+            <td>010101</td>
+        </tr>
+        <tr>
+            <td>r</td>
+            <td>22</td>
+            <td>010110</td>
+        </tr>
+        <tr>
+            <td>o</td>
+            <td>23</td>
+            <td>010111</td>
+        </tr>
+
+    </table>
+
+    <h1>2 ejercicio de laboratorio</h1>
+    <p>Realiza la conversión a binario del número decimal 843, mostrar proceso.
+    </p>
+    <p>El binario para 843 es 1101001011</p>
+    <p>esta es la prueba: 1*2^9 + 1*2^8 + 0x2^7 + 1*2^6 + 0x2^5 + 0x2^4 + 1*2^3 + 0x2^2 + 1*2^1 + 1*2^0 = 843</p>
+
+    <h1>3 ejercicio de laboratorio</h1>
+    <p>Realiza  la  conversión  tanto  a  decimal  como  a  hexadecimal  de los  números binarios, mostrar proceso.
+    </p>
+    <ol>
+        <li>11100101011110.</li>
+        <p> es 14686  <br>
+        la prueba es:  0 * 2^13 + 1 * 2^12 + 1 * 2^11 + 1 * 2^10 + 1 * 2^9 + 0 * 2^8 + 1 * 2^7 + 0 * 2^6 + 1 * 2^5 + 0 * 2^4 + 0 * 2^3 + 1 * 2^2 + 1 * 2^1 + 1 * 2^0<br>
+        = 2 + 4 + 8 + 16 + 64 + 256 + 2048 + 4096 + 8192 = 14686
+        </p>
+        <li>1111111111111</li>
+        <p>es 8191<br>
+            la prueba es: 1 * 2^13 + 1 * 2^12 + 1 * 2^11 + 1 * 2^10 + 1 * 2^9 + 1 * 2^8 + 1 * 2^7 + 1 * 2^6 + 1 * 2^5 + 1 * 2^4 + 1 * 2^3 + 1 * 2^2 + 1 * 2^1 + 1 * 2^0<br>
+            = 1 + 2 + 4 + 8 + 16 + 32 + 64 + 128 + 256 + 512 + 1024 + 2048 + 4097 = 8191
+        </p>
+        <p></p>
+        <li>100000000001</li>
+        <p>es 2049:<br>
+            1 * 2^0 + 0 * 2^1 + 0 * 2^2 + 0 * 2^3 + 0 * 2^4 + 0 * 2^5 + 0 * 2^6 + 0 * 2^7 + 0 * 2^8 + 0 * 2^9 + 0 * 2^10 + 0 * 2^1 = 2049
+        </p>
+        <li>10101011110000</li>
+        <p>es 10992:<br>
+            1 * 2^0 + 0 * 2^1 + 1 * 2^2 + 0 * 2^3 +  1 * 2^4 + 0 * 2^5 + 1 * 2^6 + 1 * 2^7 + 1 * 2^8 + 0 * 2^9 + 0 * 2^10 + 0 * 2^11 + 0 * 2^12 = 10992 
+        </p>
+    </ol>
+
+    <h1>4 ejercicio de laboratorio</h1>
+    <p>Construir una tabla con la representación de los 32 primeros números  en  los  sistemas  de  numeración decimal
+    </p>
+    
+    <table style="border: 1px solid black;">
+        <caption>tabla de laboratorio</caption>
+        <thead>los numero del 1 al 32 con su sistema decimal, binario y hexadesimal</thead>
+        <tbody>
+        <tr>
+            <td>sistema decimal:</td>
+            <td>sistema binario</td>
+            <td>sistema hexadesimal</td>
+        <tr>
+            <td>0</td>
+            <td>000000</td>
+            <td>0</td>
+        </tr>
+            <td>1</td>
+            <td>000001</td>
+            <td>1</td>
+        </tr>
+            <td>2</td>
+            <td>000010</td>
+            <td>2</td>
+        </tr>
+            <td>3</td>
+            <td>000011</td>
+            <td>3</td>
+        </tr>
+            <td>4</td>
+            <td>000100</td>
+            <td>4</td>
+        </tr>
+            <td>5</td>
+            <td>000101</td>
+            <td>5</td>
+        </tr>
+            <td>6</td>
+            <td>000110</td>
+            <td>6</td>
+        </tr>
+            <td>7</td>
+            <td>000111</td>
+            <td>7</td>
+        </tr>
+            <td>8</td>
+            <td>001000</td>
+            <td>8</td>
+        </tr>
+            <td>9</td>
+            <td>001001</td>
+            <td>9</td>
+        </tr>
+            <td>10</td>
+            <td>001010</td>
+            <td>A</td>
+        </tr>
+            <td>11</td>
+            <td>001011</td>
+            <td>B</td>
+        </tr>
+            <td>12</td>
+            <td>001100</td>
+            <td>C</td>
+        </tr>
+            <td>13</td>
+            <td>001101</td>
+            <td>D</td>
+        </tr>
+            <td>14</td>
+            <td>001110</td>
+            <td>E</td>
+        </tr>
+            <td>15</td>
+            <td>001111</td>
+            <td>F</td>
+        </tr>
+            <td>16</td>
+            <td>010000</td>
+            <td>10</td>
+        </tr>
+            <td>17</td>
+            <td>0100010</td>
+            <td>11</td>
+        </tr>
+            <td>18</td>
+            <td>010010</td>
+            <td>12</td>
+        </tr>
+            <td>19</td>
+            <td>010011</td>
+            <td>13</td>
+        </tr>
+            <td>20</td>
+            <td>010100</td>
+            <td>14</td>
+        </tr>
+            <td>21</td>
+            <td>010101</td>
+            <td>15</td>
+        </tr>
+            <td>22</td>
+            <td>010110</td>
+            <td>16</td>
+        </tr>
+            <td>23</td>
+            <td>010111</td>
+            <td>17</td>
+        </tr>
+            <td>24</td>
+            <td>011000</td>
+            <td>18</td>
+        </tr>
+            <td>25</td>
+            <td>011001</td>
+            <td>19</td>
+        </tr>
+            <td>26</td>
+            <td>011010</td>
+            <td>1A</td>
+        </tr>
+            <td>27</td>
+            <td>011011</td>
+            <td>1B</td>
+        </tr>
+            <td>28</td>
+            <td>011100</td>
+            <td>1C</td>
+        </tr>
+            <td>29</td>
+            <td>011101</td>
+            <td>1D</td>
+        </tr>
+            <td>30</td>
+            <td>011110</td>
+            <td>1E</td>
+        </tr>
+            <td>31</td>
+            <td>011111</td>
+            <td>1F</td>
+        </tr>
+            <td>32</td>
+            <td>100000</td>
+            <td>20</td>
+        </tr>
+        </tbody>
+    </table>
+
+    <h1>5 ejercicio de laboratorio</h1>
+    <p>¿Cuál es el siguiente número hexadecimal al 19F?
+    </p>
+    <p>es el 1A0</p>
+    <br>
+    <form>
+        <label for="nota">escriba la nota</label>
+        <input type="number" id="nota" name="nota" placeholder="nota"><br>
+        <label for="escriba un comentario">escriba un comentario</label><br>
+        <textarea placeholder="comentario" name="escriba un comentario" id="escriba un comentario" cols="50" rows="5"></textarea>
+    </form>
+    <!--terminada la tarea del laboratorio2...-->
+</body>
+</html>
